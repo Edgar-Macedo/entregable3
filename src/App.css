@@ -1,0 +1,83 @@
+/*https://colorhunt.co/palette/191a191e51284e9f3dd8e9a8*/
+:root{
+  --mainFont: 'Roboto', sans-serif;
+  background-color: #191A19;
+}
+
+.App {
+  font-family: var(--mainFont);
+  box-sizing: border-box;
+  
+}
+
+.wrapper{
+  margin: auto;
+  max-inline-size: 851px;
+}
+
+.banner{
+  border-bottom: 0;
+}
+
+.searchBar{
+  text-align: center;
+}
+
+.searchBar input{
+  width: 25em;
+  height: 3em;
+  background-color: #D8E9A8;
+  border: none;
+}
+
+.searchBar button {
+  width: 3.1em;
+  height: 3.1em;
+  background-color: #4E9F3D;
+  border-color: #1E5128;
+}
+
+.character-grid{
+  display: grid;
+  grid-template-columns: repeat(2 ,1fr);
+  gap: 1rem;
+  padding-inline: 0;
+}
+
+.character-pic{
+  inline-size: 200px;
+}
+
+.resident-card{
+  background-color: #D8E9A8;
+  display: grid;
+  grid-template-columns: repeat(2, .5fr);
+}
+
+
+.info-flex{
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-evenly;
+  background-color: #1E5128;
+}
+
+.location-name p{
+  text-align: center;
+  background-color: #1E5128;
+}
+
+.location-info{
+  background-color: #1E5128;
+}
+
+li {
+  list-style: none;
+  border-color: black;
+  border: solid thin;
+}
+
+h3 {
+  border:0 ;
+}
+
